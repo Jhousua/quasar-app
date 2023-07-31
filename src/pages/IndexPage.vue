@@ -9,12 +9,7 @@
         <div class="text-subtitle1 text-weight-bold text-grey">
           Web Designer | Web Developer
         </div>
-        <q-btn
-          class="q-ma-lg"
-          outline
-          style="color: goldenrod"
-          label="Contact"
-        />
+        <q-btn class="q-ma-lg" outline style="color: #daa520" label="Contact" />
       </div>
       <div class="col-6 self-center flex justify-center">
         <q-avatar class="" size="200px">
@@ -23,15 +18,41 @@
       </div>
     </div>
 
-    <div class="about-container bg-grey q-pa-none q-ma-none">
+    <div class="about-container q-pa-none q-ma-none">
       <div>
-        <h4 class="text-center q-mt-none q-pt-xl">About me</h4>
+        <h4 class="text-center q-mt-none q-mb-none q-pt-xl text-weight-bold">
+          About me
+        </h4>
+        <q-separator class="q-mb-xl" inset />
       </div>
-      <div class="flex row">
-        <div class="col-6 text-center self-center">
-          <q-img size="20px" src="/heroimg.png" :ratio="1" />
+      <div class="flex justify-evenly row">
+        <div class="text-center self-center col-6">
+          <q-card class="my-card">
+            <img src="https://cdn.quasar.dev/img/mountains.jpg" />
+          </q-card>
         </div>
-        <div class="col-6 self-center flex justify-center">text</div>
+        <div class="self-center col-6 text-left">
+          <h6 class="q-ma-none q-px-xl text-weight-bold text-warning">
+            I Am a Web Designer and Developer
+          </h6>
+
+          <div class="q-px-xl text-subtitle1 q-mt-md">
+            orem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+            massa sem, luctus vitae pellentesque ut, gravida in odio. Morbi
+            vehicula ex diam, eget placerat augue scelerisque vel. Vestibulum at
+            sodales neque, sit amet rhoncus nibh. Nunc et porta mi. Sed varius,
+            turpis quis malesuada ullamcorper, orci ex hendrerit purus, ac
+            laoreet dui dui eget elit.
+          </div>
+          <div class="q-px-xl text-subtitle1 q-mt-md">
+            orem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+            massa sem, luctus vitae pellentesque ut, gravida in odio. Morbi
+            vehicula ex diam, eget placerat augue scelerisque vel. Vestibulum at
+            sodales neque, sit amet rhoncus nibh. Nunc et porta mi. Sed varius,
+            turpis quis malesuada ullamcorper, orci ex hendrerit purus, ac
+            laoreet dui dui eget elit.
+          </div>
+        </div>
       </div>
     </div>
   </div>
